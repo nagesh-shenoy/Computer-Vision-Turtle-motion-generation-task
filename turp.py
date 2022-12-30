@@ -9,7 +9,7 @@ tt.shape("circle")
 tt.color("black","green")
 tt.speed(0)
 tt.penup()
-tt.screensize(canvwidth=500,canvheight=500,bg="white")
+wn.screensize(canvwidth=500,canvheight=500,bg="white")
 a = 150
 n = 1000
 t=np.linspace(0,2*np.pi,513)
